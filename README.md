@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+📱 FoodHaven Mobile App
+📌 Project Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+FoodHaven is a React Native mobile application that allows users to browse, create, edit, and delete food items using an external API.
 
-## Get started
+The application demonstrates navigation, authentication flow, CRUD operations, validation, and native mobile functionality.
 
-1. Install dependencies
+🚀 Features
+🔐 Authentication
 
-   ```bash
-   npm install
-   ```
+Login
 
-2. Start the app
+Register
 
-   ```bash
-   npx expo start
-   ```
+Logout
 
-In the output, you'll find options to open the app in a
+Protected routes
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Session persistence (SecureStore)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🧭 Navigation
 
-## Get a fresh project
+Stack Navigator
 
-When you're ready, run:
+Bottom Tab Navigator
 
-```bash
-npm run reset-project
-```
+Master → Detail flow
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Route parameters
 
-## Learn more
+🌍 API Integration
 
-To learn more about developing your project with Expo, look at the following resources:
+External MockAPI
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Pull to refresh
 
-## Join the community
+Loading states
 
-Join our community of developers creating universal apps.
+Error handling
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📝 CRUD
+
+GET: Fetch foods
+
+POST: Add food
+
+PUT: Edit food
+
+DELETE: Remove food
+
+📷 Native Feature
+
+Image Picker (expo-image-picker)

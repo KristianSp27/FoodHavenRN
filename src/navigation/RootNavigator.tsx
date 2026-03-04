@@ -16,9 +16,5 @@ export default function RootNavigator() {
     );
   }
 
-  return (
-    <NavigationContainer>
-      {userToken ? <MainTabs /> : <AuthStack />}
-    </NavigationContainer>
-  );
+  return <NavigationContainer>{userToken ? <MainTabs /> : <AuthStack />}</NavigationContainer>;
 }
